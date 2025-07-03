@@ -16,29 +16,6 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `classes`
---
-
-DROP TABLE IF EXISTS `classes`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `classes` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `classes`
---
-
-LOCK TABLES `classes` WRITE;
-/*!40000 ALTER TABLE `classes` DISABLE KEYS */;
-/*!40000 ALTER TABLE `classes` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `students`
 --
 
